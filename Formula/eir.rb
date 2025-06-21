@@ -1,15 +1,15 @@
 class Eir < Formula
   desc "EXIF-based image renamer and RAW format converter"
   homepage "https://github.com/alexbigkid/eir"
-  version "0.1.49"
+  version "0.1.50"
   
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/alexbigkid/eir/releases/download/v#{version}/eir-#{version}-macos-universal"
-      sha256 "fe6472934737ec07e912bff2d9b32f41a011791a195a65be821089b298f2f3c3"
+      sha256 "839394a1a262fec9fd7e91d35696e1b295b2e691c4c7ee96f69e62fc19562678"
     else
       url "https://github.com/alexbigkid/eir/releases/download/v#{version}/eir-#{version}-macos-universal"
-      sha256 "fe6472934737ec07e912bff2d9b32f41a011791a195a65be821089b298f2f3c3"
+      sha256 "839394a1a262fec9fd7e91d35696e1b295b2e691c4c7ee96f69e62fc19562678"
     end
   end
 
