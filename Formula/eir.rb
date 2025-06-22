@@ -1,9 +1,9 @@
 class Eir < Formula
   desc "EXIF-based image renamer and RAW format converter"
   homepage "https://github.com/alexbigkid/eir"
-  version "0.1.72"
+  version "0.1.73"
   url "https://github.com/alexbigkid/eir/releases/download/v#{version}/eir-#{version}-macos-universal"
-  sha256 "dc52b2ad3a636fbff1d3e0777ccf739b702ec5f931861d94e0f9ba486a8fa5ec"
+  sha256 "c569cd0064fa39611aad784409b8fc414bc51e7dad252fd69b07020bdd789b0b"
 
   def install
     bin.install "eir-#{version}-macos-universal" => "eir"
