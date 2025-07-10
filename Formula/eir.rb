@@ -1,9 +1,9 @@
 class Eir < Formula
   desc "EXIF-based image renamer and RAW format converter"
   homepage "https://github.com/alexbigkid/eir"
-  version "0.3.7"
+  version "0.3.8"
   url "https://github.com/alexbigkid/eir/releases/download/v#{version}/eir-#{version}-macos-universal"
-  sha256 "226bc5482ac77ef17985d4e6fb1bc2d375be403d5907cc94b716d3ed424de04f"
+  sha256 "5e0bb4b0883e3e60310c0f380e6f902b2bb717650b9bbe95e6d1d8c9a0c91b34"
 
   depends_on "exiftool"
 
